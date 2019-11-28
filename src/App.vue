@@ -1,8 +1,15 @@
 <template>
   <div id="app">
+    <div class="header">
+        <span>
+            <h3>Customer Management</h3>
+             <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </span>
+    </div>    
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/customers">Customers</router-link>
     </div>
     <router-view />
   </div>
